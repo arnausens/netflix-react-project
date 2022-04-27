@@ -8,7 +8,7 @@ import Paypal from "./Pages/Paypal";
 import Home from "./Pages/Home";
 
 function App() {
-    const user = "null";
+    const user = "pepe";
     const classes = useStyles();
     return (
         <div className={classes.root}>
@@ -29,8 +29,8 @@ function App() {
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        // background: "#111",
-        minHeight: "100vh"
+        minHeight: "100vh",
+        backgroundColor: "#111"
     }
 }))
 
